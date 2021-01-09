@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, '/views')));
 //init middleware
 app.use(logger)
 
-//handlebar middileware 
+//handlebars middileware 
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
